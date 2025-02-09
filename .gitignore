@@ -2,5 +2,5 @@ zmk
 zephyr
 modules
 temper
-build
+build*
 .west
