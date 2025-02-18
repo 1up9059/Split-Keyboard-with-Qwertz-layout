@@ -5,6 +5,11 @@
   [temper](https://github.com/raeedcho/temper) based
 
 
+**Here is the layout map:**
+
+![Temper Qwertz Map](layout-visualization/generated_temper_qwertz.svg)
+
+
 ## How to build locally
 
 
