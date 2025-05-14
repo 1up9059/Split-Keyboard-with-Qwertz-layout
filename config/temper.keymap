@@ -35,7 +35,6 @@
 
         tabdance_SPACE_RALT: tabdance_SPACE_RALT {
             compatible = "zmk,behavior-tabdance";
-            label = "SPACE_RALT";
             bindings = <&kp SPACE &kp RALT>;
         };
     };
