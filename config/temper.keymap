@@ -19,7 +19,7 @@
 
 / {
     behaviors {
-        dot_colon: &dot_colon {
+        dot_colon: dot_colon {
             compatible = "zmk,behavior-tabdance";
             bindings = <&kp DOT &kp COLON>;
         };
