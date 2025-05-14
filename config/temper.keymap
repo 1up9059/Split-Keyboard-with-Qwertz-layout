@@ -19,21 +19,19 @@
 
 / {
     behaviors {
-        comma_semi: comma_semi {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp COMMA>, <&kp SEMI>;
-            mods = <(MOD_LSFT)>;
+        dot_colon : dot_colon  {
+            compatible = "zmk,behavior-tabdance";
+            bindings = <&kp DOT &kp COLON>;
         };
 
-        dot_colon: dot_colon {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp DOT>, <&kp COLON>;
-            mods = <(MOD_LSFT)>;
+        comma_semi : comma_semi  {
+            compatible = "zmk,behavior-tabdance";
+            bindings = <&kp COMMA &kp SEMI>;
         };
 
         tabdance_SPACE_RALT: tabdance_SPACE_RALT {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
             compatible = "zmk,behavior-tabdance";
             bindings = <&kp SPACE &kp RALT>;
         };
