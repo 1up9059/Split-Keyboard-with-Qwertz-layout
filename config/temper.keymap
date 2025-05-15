@@ -35,14 +35,7 @@
             bindings = <&kp SPACE &kp RALT>;
             #binding-cells = <0>;
         };
-        nalt_enye: nalt_enye {
-            compatible = "zmk,behavior-mod-morph";
-            label = "NALT_ENYE";
-            bindings = <&kp N>, <&kp N_TILDE>;
-            #binding-cells = <0>;
-            mods = <(MOD_LALT|MOD_RALT)>;
-            keep-mods = <(MOD_LSFT|MOD_RSFT)>;
-};
+
 
 
     };
@@ -56,7 +49,7 @@
 //            --------|-------|---------|-------|-------|     |------|--------|-------|---------|-----------|
                 &kp Q          &kp W   &kp E    &kp R        &kp T               &kp Y                &kp U       &kp I       &kp O      &kp P
                 &kp A          &kp S   &kp D    &kp F        &kp G               &kp H                &kp J       &kp K       &kp L      &kp BSPC
-                &mt LSHIFT Z   &kp X   &kp C    &kp V        &kp B               &nalt_enye           &kp M       &comma_semi &dot_colon &mt RSHIFT SLASH
+                &mt LSHIFT Z   &kp X   &kp C    &kp V        &kp B               &kp N                &kp M       &comma_semi &dot_colon &mt RSHIFT SLASH
                                &mt LCTRL ESC    &mo NUM_NAV  &mt LALT ENTER      &tabdance_SPACE_RALT &mo SYMBOLS &mt RCTRL TAB
             >;
         };
