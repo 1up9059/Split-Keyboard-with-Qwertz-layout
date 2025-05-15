@@ -35,6 +35,13 @@
             bindings = <&kp SPACE &kp RALT>;
             #binding-cells = <0>;
         };
+        tabdance_N_ENYE: tabdance_N_ENYE {
+            compatible = "zmk,behavior-tab-dance";
+            bindings = <&kp N &kp Ñ>;
+            #binding-cells = <0>;
+        };
+
+
     };
 
     keymap {
