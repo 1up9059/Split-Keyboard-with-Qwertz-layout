@@ -1,0 +1,21 @@
+/ {
+    behaviors {
+        dot_colon: dot_colon {
+            compatible = "zmk,behavior-tabdance";
+            bindings = <&kp DOT &kp COLON>;
+            #binding-cells = <0>;
+        };
+
+        comma_semi: comma_semi {
+            compatible = "zmk,behavior-tabdance";
+            bindings = <&kp COMMA &kp SEMI>;
+            #binding-cells = <0>;
+        };
+
+        tabdance_SPACE_RALT: tabdance_SPACE_RALT {
+            compatible = "zmk,behavior-tabdance";
+            bindings = <&kp SPACE &kp RALT>;
+            #binding-cells = <0>;
+        };
+    };
+};
